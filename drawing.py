@@ -4,7 +4,7 @@ from turtle import *
 def draw_spiderMan():
     speed(13)  # Painting speed control
     bgcolor("black")
-    pensize(5)
+    pensize(15)
     penup()
     goto(0, 50)
     pendown()
@@ -21,9 +21,14 @@ def draw_spiderMan():
     circle(70, 55)
     right(90)
     circle(70, 58)
+    right(60)
+    circle(70, 55)
+    right(70)
+    circle(75, 58)
+
     # body
     penup()
-    pensize(10)
+    pensize(15)
     goto(80, 15)
     pendown()
     seth(92)
