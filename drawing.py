@@ -318,7 +318,7 @@ def draw_flower():
     # BEGIN TO DRAW
     speed(5)  # Brush movement speed is 5 seconds
     begin_fill()  # BEGIN TO FILL COLOR
-    fillcolor('red')  
+    fillcolor('yellow')  
     circle(50, 30)  # Draw a circle with radius 50 and arc 30
 
     for i in range(10):
